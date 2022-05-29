@@ -1,0 +1,96 @@
+h1,h2,h3{
+    color:brown;
+}
+ul{
+    list-style-image:url("images/tiny-coffee-cup.gif");
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 auto;
+    width: 960px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: rgb(230, 44, 200);
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(24, 131, 113);
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+nav a:link,  nav a:visited{
+    background-color: brown;
+    color: bisque;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a:hover{
+    background-color: black;
+}
+aside{
+    width: 280px;
+    float: right;
+    color: #942341;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 0px 20px;
+    margin-left: 20px;
+}
+.cupphoto{
+    float: left;
+    margin-right: 20px;
+}
+.roasterPic{
+    float: right;
+    margin-left: 10px;
+}
+.grindPic{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+header{
+    background-image: url("images/coffee-beans.jpg");
+    height: 100px;
+}
+header h1{
+    color: rgba(256, 256, 256, 0.6);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 47px;
+}
+footer{
+    margin: 40px 0px;
+}
+footer nav a:visited, footer nav a:link{
+    color: gray;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: #ffffff;
+}
+footer nav a:hover{
+    color: black;
+    background-color: rgb(172, 168, 168);
+}
+table{
+    border-collapse: collapse;
+    
+}
+td, th{
+    border: 1px solid black;
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
